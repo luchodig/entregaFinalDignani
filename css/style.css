@@ -1,0 +1,94 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    min-height: 100%;
+    background-color: rgb(0, 0, 165);
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+label {
+    font-weight: 400;
+    color: black;
+}
+
+.div-cotizador {
+    max-width: 696px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    border-color: lightgrey;
+    border-radius: 0.6rem;
+}
+
+select, input {
+    min-width: 50% !important;
+    width: 60% !important;
+}
+
+.separador {
+    margin: 20px;
+}
+
+.importe {
+    color: rgb(0, 0, 165);
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.guardar {
+    border: 1px transparent;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.guardar:hover {
+    background-color: rgb(0, 0, 165);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.guardar:active {
+    background-color: black !important;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+button:hover {
+    color: whitesmoke !important;
+    background-color: rgb(0, 0, 165) !important;
+}
+
+button:active {
+    background-color: black !important;
+}
+img {
+    width: 20vw;
+    height: 20vh;
+    
+}
+.titulo {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
